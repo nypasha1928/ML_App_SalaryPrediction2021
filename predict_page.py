@@ -3,21 +3,21 @@ import pickle
 import numpy as np
 
 
-# We need code from our notebook
-#  we create a function , we copy the code of the saved file in pickle
+# # We need code from our notebook
+# #  we create a function , we copy the code of the saved file in pickle
 
-def load_model():
-    with open ("save_steps.pkl", 'rb') as file:
-        data = pickle.load(file)
-    return data
+# def load_model():
+#     with open ("save_steps.pkl", 'rb') as file:
+#         data = pickle.load(file)
+#     return data
 
-#  we want to excute the date
-data = load_model()
+# #  we want to excute the date
+# data = load_model()
 
-# To access the keys we copy them from notebook
-regressor = data['model']
-le_country = data['le_country']
-le_education = data['le_education']
+# # To access the keys we copy them from notebook
+# regressor = data['model']
+# le_country = data['le_country']
+# le_education = data['le_education']
 
 #  Let's  build our streamlit App by creating a function
 #  We create streamlit wedgets 
