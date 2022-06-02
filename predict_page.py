@@ -7,7 +7,7 @@ import numpy as np
 #  we create a function , we copy the code of the saved file in pickle
 
 def load_model():
-    with open ("saved_steps.pkl", 'rb') as file:
+    with open ("save_steps.pkl", 'rb') as file:
         data = pickle.load(file)
     return data
 
@@ -32,3 +32,4 @@ def show_predict_page():
 # If we try to excute the app from the terminal it wont work 
 # We need to start it from the main ( app.py ) file.
 # Now we need wrtie some code in the (app.py) file. 
+
