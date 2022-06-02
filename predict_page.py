@@ -7,7 +7,7 @@ import numpy as np
 #  we create a function , we copy the code of the saved file in pickle
 
 def load_model():
-    with open ("save_steps.pkl", 'rb') as file:
+    with open ("saved_steps.pkl", 'rb') as file:
         data = pickle.load(file)
     return data
 
@@ -22,7 +22,7 @@ le_education = data['le_education']
 #  Let's  build our streamlit App by creating a function
 #  We create streamlit wedgets 
 
-def show_predcit_page():
+def show_predict_page():
     st.title("Software Developer Salary Prediction")
 
 # we can write text by using a multi line string and we can use a ( .DS_store )(mark down syntex)

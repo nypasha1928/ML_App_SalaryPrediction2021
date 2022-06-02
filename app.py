@@ -1,9 +1,9 @@
 import streamlit 
 
 # imort the function from the page  
-from predict_page import show_predcit_page
+from predict_page import show_predict_page
 
 # Excute the function
-show_predcit_page()
+show_predict_page()
 
 # Quick the server by pressing (Control C)
